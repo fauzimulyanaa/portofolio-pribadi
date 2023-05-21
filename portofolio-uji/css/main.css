@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 5px auto;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.3em;
+}
+
+nav ul {
+  margin: 2em;
+  display: flex;
+  list-style: none;
+  gap: 3em;
+  font-size: 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 2em;
+  text-align: center;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  padding: 3px;
+  background-color: white;
+}
+
+.perkenalan {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 11em;
+  gap: 8em;
+}
+
+.left-col {
+  width: 45%;
+}
+
+.right-col {
+  flex-grow: 1;
+}
+
+.say {
+  font-size: 1.4rem;
+}
+
+.say span {
+  color: orangered;
+  margin: 10px 0;
+}
+
+.left-col h3 {
+  font-size: 4rem;
+  margin-top: 0.4em;
+}
+
+.subhead {
+  font-size: 1.4rem;
+  margin-top: 1em;
+  word-spacing: 2px;
+}
+
+.btn-1 {
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 30px;
+  border: solid 1px black;
+  border-radius: 2em;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+}
+
+.btn-1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.right-col img {
+  width: 25%;
+  position: absolute;
+  right: 180px;
+  bottom: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px 3px rgba(255, 0, 0, 0.7), -5px -5px 5px 3px rgba(0, 0, 255, 0.7);
+}
+
+h2 {
+  margin-top: 6em;
+  text-align: center;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 130px;
+}
+
+.left-col-1 img {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px 3px rgba(255, 0, 0, 0.7), -5px -5px 5px 3px rgba(0, 0, 255, 0.7);
+}
+
+.right-col-1 h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.right-col-1 p {
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
